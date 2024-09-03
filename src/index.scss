@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+//GLOBAL CLASSES
+
+.row, .column {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.light-font {
+    font-weight: 300;
+}
+
+.alert-message {
+    padding: 10px 0;
+    color: #3c6dd6;
+    
+}
+
+
+//CUSTOM STYLES
+
+header {
+    padding: 10px 5%;
+    background: #555;
+    color: #eee;
+    margin-bottom: 25px;
+    nav {
+        a{
+            color:#eee;
+            &:not(:last-child) {
+                margin-right: 7px;
+            }
+            &.active, &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+main {
+    padding: 0 5%;
+}
+
+footer {
+    padding: 25px 5%;
+}
+
+//Home Styles
+.home-hero {
+    img {
+        width: 15%;
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        font-weight: 400;
+    }
+}
+
+section.work {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    color: #fff;
+    margin: 40px 0;
+
+    article.work-item {
+        padding: 15px;
+        background-size: cover;
+        
+    }
+}
+
+//Contact Page Styles
+form.contact-form {
+    background-color: white;
+    margin: 15px auto 0;
+    width: 450px;
+    > * {
+        padding: 6px 10px;
+        border: none;
+        margin-bottom: 5px;
+        border-radius: 3px;
+        &:focus {
+            outline: 1px solid #3c6dd6;
+        }
+    }
+
+    label {
+        font-size: .85rem;
+        color: #555;
+    }
+
+    input, textarea, select {
+        border: 1px solid #ccc;
+        color: #555;
+    }
+
+    button {
+        background-color: #3c6dd6;
+        color: #fff;
+    }
+}
+
+//404 Page
+
+.dino-image {
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+//About Page
+
+.about-hero {
+    img {
+        width: 35%;
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+
+    p{
+        padding-bottom: 20px;
+    }
+}
+
+//Footer styles 
+
+
+
