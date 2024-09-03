@@ -1,9 +1,11 @@
 # Module_17
 
 This is a web application is a portfolio made with react that provides information about myself, contact information, and some projects that I've worked on.
+##
 
 ## Acceptance Criteria
 
+```
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
@@ -32,7 +34,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Mock-Up
-
 The following animation shows the web application's appearance and functionality:
 
 ![portfolio](./public/images/Screenshot%202024-09-03%20172328.jpg)
